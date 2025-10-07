@@ -20,7 +20,7 @@ const Navbar = () => {
                             <li className='font-semibold'><NavLink to='/installation'>Installation</NavLink></li>
                         </ul>
                     </div>
-                    <a className="text-xl"><img src={navLogo} alt="" /></a>
+                    <a href='/' className="text-xl"><img src={navLogo} alt="" /></a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">

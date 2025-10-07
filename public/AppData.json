@@ -1,0 +1,530 @@
+[
+    {
+        "image": "https://i.ibb.co.com/fzvSMwVx/997b0a243df40b681d8c8177724f1b45.jpg",
+        "title": "Notion",
+        "companyName": "Notion Labs",
+        "id": 1,
+        "description": "All-in-one workspace for notes, tasks, databases, and collaboration.",
+        "size": 150,
+        "reviews": 5000,
+        "ratingAvg": 4.8,
+        "downloads": 1000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 50
+            },
+            {
+                "name": "2 star",
+                "count": 30
+            },
+            {
+                "name": "3 star",
+                "count": 100
+            },
+            {
+                "name": "4 star",
+                "count": 1000
+            },
+            {
+                "name": "5 star",
+                "count": 4000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/7xwFNKtb/475b12dd3aa7e0150eef25ec0b078cdd.jpg",
+        "title": "Google Docs",
+        "companyName": "Google",
+        "id": 2,
+        "description": "Create and edit documents online with real-time collaboration.",
+        "size": 50,
+        "reviews": 8000,
+        "ratingAvg": 4.7,
+        "downloads": 2000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 100
+            },
+            {
+                "name": "2 star",
+                "count": 50
+            },
+            {
+                "name": "3 star",
+                "count": 200
+            },
+            {
+                "name": "4 star",
+                "count": 1500
+            },
+            {
+                "name": "5 star",
+                "count": 5200
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/Xrhhptmn/c5f9567da28c6b923117aa1cc9431603.jpg",
+        "title": "Slack",
+        "companyName": "Slack Technologies",
+        "id": 3,
+        "description": "Team communication and collaboration tool with channels and messaging.",
+        "size": 120,
+        "reviews": 6000,
+        "ratingAvg": 4.6,
+        "downloads": 1500000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 80
+            },
+            {
+                "name": "2 star",
+                "count": 40
+            },
+            {
+                "name": "3 star",
+                "count": 150
+            },
+            {
+                "name": "4 star",
+                "count": 1200
+            },
+            {
+                "name": "5 star",
+                "count": 4720
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/xtKPv5nv/c0d71b8683982c61d2abd396b13ddfa1.jpg",
+        "title": "Trello",
+        "companyName": "Atlassian",
+        "id": 4,
+        "description": "Visual project management tool with boards, lists, and cards.",
+        "size": 80,
+        "reviews": 7000,
+        "ratingAvg": 4.5,
+        "downloads": 1800000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 70
+            },
+            {
+                "name": "2 star",
+                "count": 30
+            },
+            {
+                "name": "3 star",
+                "count": 200
+            },
+            {
+                "name": "4 star",
+                "count": 1400
+            },
+            {
+                "name": "5 star",
+                "count": 5300
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/JRpHmDZp/5c4b9e0ffe9b03882fb1fd3ac36cb443.jpg",
+        "title": "Dropbox",
+        "companyName": "Dropbox, Inc.",
+        "id": 5,
+        "description": "Cloud storage service for file synchronization and sharing.",
+        "size": 200,
+        "reviews": 9000,
+        "ratingAvg": 4.4,
+        "downloads": 2500000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 150
+            },
+            {
+                "name": "2 star",
+                "count": 100
+            },
+            {
+                "name": "3 star",
+                "count": 300
+            },
+            {
+                "name": "4 star",
+                "count": 1800
+            },
+            {
+                "name": "5 star",
+                "count": 4650
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/bg9CHx5s/2777500b50637c69cd1bf502d65187dc.jpg",
+        "title": "Google Sheets",
+        "companyName": "Google",
+        "id": 6,
+        "description": "Create and edit spreadsheets online with real-time collaboration.",
+        "size": 60,
+        "reviews": 7500,
+        "ratingAvg": 4.6,
+        "downloads": 2200000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 90
+            },
+            {
+                "name": "2 star",
+                "count": 60
+            },
+            {
+                "name": "3 star",
+                "count": 250
+            },
+            {
+                "name": "4 star",
+                "count": 1700
+            },
+            {
+                "name": "5 star",
+                "count": 5400
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/Xrc4ZZgH/48ade1654ef49f510410584e44c35c57.jpg",
+        "title": "Google Calendar",
+        "companyName": "Google",
+        "id": 7,
+        "description": "Schedule and manage your events and appointments.",
+        "size": 40,
+        "reviews": 6500,
+        "ratingAvg": 4.7,
+        "downloads": 1900000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 50
+            },
+            {
+                "name": "2 star",
+                "count": 30
+            },
+            {
+                "name": "3 star",
+                "count": 150
+            },
+            {
+                "name": "4 star",
+                "count": 1300
+            },
+            {
+                "name": "5 star",
+                "count": 4870
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/sp1V0Lry/bfd39e3699909687ea73c2b743f343f4.jpg",
+        "title": "Google Keep",
+        "companyName": "Google",
+        "id": 8,
+        "description": "Note-taking service with voice memos and image capture.",
+        "size": 30,
+        "reviews": 5500,
+        "ratingAvg": 4.5,
+        "downloads": 1600000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 60
+            },
+            {
+                "name": "2 star",
+                "count": 40
+            },
+            {
+                "name": "3 star",
+                "count": 180
+            },
+            {
+                "name": "4 star",
+                "count": 1200
+            },
+            {
+                "name": "5 star",
+                "count": 4020
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/dwcSJ7jr/84001534ea71965d4dff89d54c006681.jpg",
+        "title": "Google Drive",
+        "companyName": "Google",
+        "id": 9,
+        "description": "Cloud storage service for file synchronization and sharing.",
+        "size": 250,
+        "reviews": 10000,
+        "ratingAvg": 4.8,
+        "downloads": 3000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 100
+            },
+            {
+                "name": "2 star",
+                "count": 50
+            },
+            {
+                "name": "3 star",
+                "count": 200
+            },
+            {
+                "name": "4 star",
+                "count": 2000
+            },
+            {
+                "name": "5 star",
+                "count": 6750
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/Cygbjcn/1d363018413fbcf17c82cd3bd78132ee.jpg",
+        "title": "Google Photos",
+        "companyName": "Google",
+        "id": 10,
+        "description": "Store and organize your photos and videos with automatic backups and smart search.",
+        "size": 100,
+        "reviews": 8500,
+        "ratingAvg": 4.6,
+        "downloads": 2300000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 80
+            },
+            {
+                "name": "2 star",
+                "count": 60
+            },
+            {
+                "name": "3 star",
+                "count": 250
+            },
+            {
+                "name": "4 star",
+                "count": 1600
+            },
+            {
+                "name": "5 star",
+                "count": 5510
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/4wy77RWk/d1e614c09bd85d4739cf2d7fa391797b.jpg",
+        "title": "Microsoft To Do",
+        "companyName": "Microsoft",
+        "id": 11,
+        "description": "Task management app to plan your day and stay organized.",
+        "size": 70,
+        "reviews": 5200,
+        "ratingAvg": 4.5,
+        "downloads": 1200000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 40
+            },
+            {
+                "name": "2 star",
+                "count": 30
+            },
+            {
+                "name": "3 star",
+                "count": 200
+            },
+            {
+                "name": "4 star",
+                "count": 1500
+            },
+            {
+                "name": "5 star",
+                "count": 3430
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/rG1VrC3n/b7f247ecf2578fa2282872e25b7e21db.jpg",
+        "title": "Evernote",
+        "companyName": "Evernote Corporation",
+        "id": 12,
+        "description": "Note-taking app with notebooks, web clipping, and task management.",
+        "size": 90,
+        "reviews": 6100,
+        "ratingAvg": 4.4,
+        "downloads": 1400000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 50
+            },
+            {
+                "name": "2 star",
+                "count": 40
+            },
+            {
+                "name": "3 star",
+                "count": 250
+            },
+            {
+                "name": "4 star",
+                "count": 1800
+            },
+            {
+                "name": "5 star",
+                "count": 3960
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/XZck4yMx/7070c620d7d048b477199d44f3a12f54.jpg",
+        "title": "Asana",
+        "companyName": "Asana, Inc.",
+        "id": 13,
+        "description": "Project management platform to track tasks, projects, and workflows.",
+        "size": 110,
+        "reviews": 5800,
+        "ratingAvg": 4.6,
+        "downloads": 1300000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 30
+            },
+            {
+                "name": "2 star",
+                "count": 20
+            },
+            {
+                "name": "3 star",
+                "count": 200
+            },
+            {
+                "name": "4 star",
+                "count": 1800
+            },
+            {
+                "name": "5 star",
+                "count": 3750
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/1GbLMh4N/928c6b38cfb2fb3d0910e2c0567f67e0.jpg",
+        "title": "ClickUp",
+        "companyName": "ClickUp",
+        "id": 14,
+        "description": "All-in-one productivity platform for tasks, docs, goals, and chat.",
+        "size": 130,
+        "reviews": 4700,
+        "ratingAvg": 4.5,
+        "downloads": 1100000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 35
+            },
+            {
+                "name": "2 star",
+                "count": 25
+            },
+            {
+                "name": "3 star",
+                "count": 200
+            },
+            {
+                "name": "4 star",
+                "count": 1500
+            },
+            {
+                "name": "5 star",
+                "count": 1740
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/dYt5X7Y/d896e7959ff58fa9ea0d862e662cdd7c.jpg",
+        "title": "Monday.com",
+        "companyName": "Monday.com",
+        "id": 15,
+        "description": "Team management and project tracking platform with boards and automation.",
+        "size": 140,
+        "reviews": 4500,
+        "ratingAvg": 4.4,
+        "downloads": 1000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 40
+            },
+            {
+                "name": "2 star",
+                "count": 30
+            },
+            {
+                "name": "3 star",
+                "count": 220
+            },
+            {
+                "name": "4 star",
+                "count": 1600
+            },
+            {
+                "name": "5 star",
+                "count": 1610
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/KxYJB5YJ/2cdf19f967eb944f6167d91aee176123.jpg",
+        "title": "Google Meet",
+        "companyName": "Google",
+        "id": 16,
+        "description": "Video conferencing app to connect with colleagues, friends, and family in real-time.",
+        "size": 80,
+        "reviews": 7200,
+        "ratingAvg": 4.5,
+        "downloads": 1800000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 60
+            },
+            {
+                "name": "2 star",
+                "count": 40
+            },
+            {
+                "name": "3 star",
+                "count": 200
+            },
+            {
+                "name": "4 star",
+                "count": 1500
+            },
+            {
+                "name": "5 star",
+                "count": 5400
+            }
+        ]
+    }
+]
