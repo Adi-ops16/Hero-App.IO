@@ -4,7 +4,7 @@ import FeaturedApp from './FeaturedApp';
 import { Link } from 'react-router';
 
 const FeaturedApps = () => {
-    const { apps, loading, error } = useApps()
+    const { apps } = useApps()
     const FeaturedApps = apps.slice(0, 8)
     return (
         <div className='space-y-10 inter'>

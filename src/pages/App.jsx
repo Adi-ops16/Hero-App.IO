@@ -1,8 +1,8 @@
 import { Download, Star } from 'lucide-react';
 import React from 'react';
 
-const FeaturedApp = ({ featuredApps }) => {
-    const { title, image, description, downloads, ratingAvg } = featuredApps
+const App = ({ app }) => {
+    const { title, image, description, downloads, ratingAvg } = app
     return (
         <div className='inter flex flex-col justify-between bg-white p-4 py-4 px-2 rounded-md space-y-3 hover:scale-105 duration-500 cursor-pointer'>
             <figure className='flex justify-center items-center py-5 rounded-lg'>
@@ -21,4 +21,4 @@ const FeaturedApp = ({ featuredApps }) => {
     );
 };
 
-export default FeaturedApp;
+export default App;
