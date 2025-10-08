@@ -30,14 +30,14 @@ const Banner = () => {
                         <p>21% more than last month</p>
                     </div>
                     <div className='space-y-8'>
-                        <p className='text-sm'>Total Downloads</p>
-                        <h1 className='text-5xl font-bold'>29.6M</h1>
-                        <p>21% more than last month</p>
+                        <p className='text-sm'>Total Reviews</p>
+                        <h1 className='text-5xl font-bold'>906K</h1>
+                        <p>46% more than last month</p>
                     </div>
                     <div className='space-y-8'>
-                        <p className='text-sm'>Total Downloads</p>
-                        <h1 className='text-5xl font-bold'>29.6M</h1>
-                        <p>21% more than last month</p>
+                        <p className='text-sm'>Active Apps</p>
+                        <h1 className='text-5xl font-bold'>132+</h1>
+                        <p>31 more will Launch</p>
                     </div>
                 </div>
             </div>
