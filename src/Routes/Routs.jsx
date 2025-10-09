@@ -14,9 +14,9 @@ export const router = createBrowserRouter([
         errorElement: <Error></Error>,
         children: [
             { index: true, Component: Home },
-            { path: 'apps', Component: Apps },
-            { path: 'installation', Component: Installation },
-            { path: 'appDetails/:Id', Component: AppDetails }
+            { path: '/apps', Component: Apps },
+            { path: '/installation', Component: Installation },
+            { path: '/appDetails/:Id', Component: AppDetails }
         ]
     }
 ])
