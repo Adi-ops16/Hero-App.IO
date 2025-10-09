@@ -2,9 +2,10 @@ import React, { useState } from 'react';
 import useApps from '../Hooks/useApps';
 import App from './App';
 import NoAppsFound from '../Errors/NoAppsFound';
+import SkeletonSpinner from '../Component/Spinners/SkeletonSpinner';
 
 const Apps = () => {
-    const { apps } = useApps()
+    const { apps, loading } = useApps()
     const [search, setSearch] = useState("")
     const userSearch = search.trim().toLowerCase()
     const searchResult = apps.filter(app => userSearch ? app.title.toLowerCase().includes(userSearch) : apps)
@@ -32,12 +33,12 @@ const Apps = () => {
                     <input value={search} onChange={(e) => setSearch(e.target.value)} className='' type="search" required placeholder="Search" />
                 </label>
             </div>
-            <div className='max-w-11/12 mx-auto my-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 px-2'>
-
-                {
-                    searchResult.length > 0 ? searchResult.map(app => <App key={app.id} app={app}></App>) : <NoAppsFound />
-                }
-            </div>
+            {loading ? <SkeletonSpinner count={16} /> :
+                <div className='max-w-11/12 mx-auto my-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 px-2'>
+                    {
+                        searchResult.length > 0 ? searchResult.map(app => <App key={app.id} app={app}></App>) : <NoAppsFound />
+                    }
+                </div>}
         </div>
 
     );
