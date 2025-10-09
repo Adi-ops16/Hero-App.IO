@@ -6,7 +6,6 @@ import star from '../../assets/icon-ratings.png'
 import like from '../../assets/icon-review.png'
 import { Bar, BarChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 import Swal from 'sweetalert2';
-import { Download } from 'lucide-react';
 import { getInstalledApps, setInstalledApp } from '../../Utilities/storage';
 
 const AppDetails = () => {
@@ -64,11 +63,11 @@ const AppDetails = () => {
                         <h1 className='text-2xl font-bold'>{title} : {description}</h1>
                         <p className='text-[#627382]'>Developed By: <span className='text-[#9F62F2]'>{companyName}</span></p>
                     </div>
-                    <div className='flex gap-10'>
+                    <div className='flex items-center justify-between gap-10'>
                         <div className='space-y-1 my-5'>
                             <img src={down} alt="" />
                             <p className='text-[#001931]'>Downloads</p>
-                            <p className='text-4xl font-bold'>{downloads}</p>
+                            <p className='text-4xl font-bold'>{downloads}M</p>
                         </div>
                         <div className='space-y-1 my-5'>
                             <img src={star} alt="" />
@@ -81,7 +80,7 @@ const AppDetails = () => {
                             <p className='text-4xl font-bold'>{reviews}</p>
                         </div>
                     </div>
-                    <button onClick={() => handleInstall(clickedApp)} disabled={clicked} className='bg-[#00D390] cursor-pointer text-white py-2 w-48 rounded-sm disabled:bg-gray-500'>{clicked ? "Installed" : `Install Now (${size}MB)`}</button>
+                    <button onClick={() => handleInstall(clickedApp)} disabled={clicked} className='bg-[#00D390] cursor-pointer text-white py-2 w-48 rounded-sm disabled:bg-gray-500 disabled:cursor-default'>{clicked ? "Installed" : `Install Now (${size}MB)`}</button>
                 </div>
             </div>
             {/* chart */}
