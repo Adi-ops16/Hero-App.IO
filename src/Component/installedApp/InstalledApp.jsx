@@ -20,13 +20,13 @@ const InstalledApp = ({ app, setInstalledApps }) => {
 
     return (
         <div className='flex flex-col md:flex-row justify-between bg-white my-2 items-center gap-5 p-2 rounded-lg'>
-            <div className='flex flex-col md:flex-row gap-5 items-center'>
+            <div className='flex flex-col md:flex-row gap-5 items-center py-5'>
                 <figure className='w-20 border border-[#6273822f] rounded-lg shadow-sm'>
                     <img className='rounded-lg' src={image} alt="" />
                 </figure>
-                <div>
+                <div className='text-center space-y-3'>
                     <h1><span className='font-bold'>{title}:</span> {description}</h1>
-                    <div className='flex gap-8 items-center'>
+                    <div className='flex gap-8 justify-center items-center'>
                         <span className='flex text-[#00D390] items-center gap-1'><Download className='w-4' /> {downloads}M</span>
                         <span className='flex items-center gap-1 text-[#FF8811]'><Star className='w-4 stroke-3 ' /> {ratingAvg}</span>
                         <span className='text-[#627382]'>{size} MB</span>

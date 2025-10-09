@@ -28,8 +28,8 @@ const Installation = () => {
                 </button>
                 <ul className="dropdown menu w-52 rounded-box bg-base-100 shadow-sm"
                     popover="auto" id="popover-1" style={{ positionAnchor: "--anchor-1" }}>
-                    <li><a onClick={() => { setSort("asc");document.getElementById("popover-1")?.hidePopover();}}>Low to High</a></li>
-                    <li><a onClick={() => { setSort("desc");document.getElementById("popover-1")?.hidePopover();}}>High to Low</a></li>
+                    <li><a onClick={() => { setSort("asc"); document.getElementById("popover-1")?.hidePopover(); }}>Low to High</a></li>
+                    <li><a onClick={() => { setSort("desc"); document.getElementById("popover-1")?.hidePopover(); }}>High to Low</a></li>
                 </ul>
             </div>
             <div className='max-w-11/12 mx-auto'>
