@@ -19,8 +19,8 @@ const InstalledApp = ({ app, setInstalledApps }) => {
 
 
     return (
-        <div className='flex justify-between bg-white my-2 items-center gap-5 p-2 rounded-lg'>
-            <div className='flex gap-5 items-center'>
+        <div className='flex flex-col md:flex-row justify-between bg-white my-2 items-center gap-5 p-2 rounded-lg'>
+            <div className='flex flex-col md:flex-row gap-5 items-center'>
                 <figure className='w-20 border border-[#6273822f] rounded-lg shadow-sm'>
                     <img className='rounded-lg' src={image} alt="" />
                 </figure>
