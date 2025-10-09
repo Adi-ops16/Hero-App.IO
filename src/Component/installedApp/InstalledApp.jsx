@@ -1,5 +1,6 @@
 import { Download, Star } from 'lucide-react';
 import { getInstalledApps } from '../../Utilities/storage';
+import Swal from 'sweetalert2';
 
 const InstalledApp = ({ app, setInstalledApps }) => {
 
@@ -10,6 +11,10 @@ const InstalledApp = ({ app, setInstalledApps }) => {
         const updatedApps = existingApps.filter(app => app.id !== id)
         localStorage.setItem("installed", JSON.stringify(updatedApps))
         setInstalledApps(updatedApps)
+        Swal.fire({
+            title: "App Uninstalled!",
+            icon: "success"
+        })
     }
 
 

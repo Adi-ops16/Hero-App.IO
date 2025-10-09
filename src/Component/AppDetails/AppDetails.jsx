@@ -7,12 +7,13 @@ import like from '../../assets/icon-review.png'
 import { Bar, BarChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 import Swal from 'sweetalert2';
 import { getInstalledApps, setInstalledApp } from '../../Utilities/storage';
+import { RingLoader } from 'react-spinners';
 
 const AppDetails = () => {
     const [clicked, setClicked] = useState(false)
 
     const { Id } = useParams()
-    const { apps, loading, error } = useApps()
+    const { apps, loading } = useApps()
 
     const idConverted = parseInt(Id)
     const clickedApp = apps.find(app => app.id === idConverted)
@@ -25,12 +26,14 @@ const AppDetails = () => {
     }, [idConverted])
 
 
-    if (loading) return <p>loading..</p>
+    if (loading) return (<div className='flex h-screen justify-center items-center'>
+        <RingLoader></RingLoader>
+    </div>)
 
     const { title, companyName, image, description, downloads, ratingAvg, detailedDescription, reviews, size, ratings } = clickedApp
 
     const reversedRating = [...ratings].reverse()
-    
+
     const handleInstall = (clickedApp) => {
         const existingApps = getInstalledApps()
         const isInstalled = existingApps.some(app => app.id === clickedApp.id)
