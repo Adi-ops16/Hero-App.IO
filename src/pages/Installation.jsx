@@ -2,8 +2,11 @@ import React, { useState } from 'react';
 import { getInstalledApps } from '../Utilities/storage';
 import InstalledApp from '../Component/installedApp/InstalledApp';
 import { ChevronDown } from 'lucide-react';
+import useApps from '../Hooks/useApps';
+import { RingLoader } from 'react-spinners';
 
 const Installation = () => {
+    const { loading } = useApps()
     const [installedApps, setInstalledApps] = useState(() => getInstalledApps() || [])
     const [sort, setSort] = useState('none')
     const sortedApps = [...installedApps].sort((a, b) => {
@@ -33,7 +36,9 @@ const Installation = () => {
                 </ul>
             </div>
             <div className='max-w-11/12 mx-auto'>
-                {
+                {loading ? <div className='flex justify-center items-center h-screen'>
+                    <RingLoader></RingLoader>
+                </div> :
                     sortedApps.map(app => <InstalledApp key={app.id} app={app} setInstalledApps={setInstalledApps} ></InstalledApp>)
                 }
             </div>

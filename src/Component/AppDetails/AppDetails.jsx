@@ -58,7 +58,7 @@ const AppDetails = () => {
         <div className='inter bg-[#F5F5F5] py-10'>
             {/* basic details */}
             <div className='max-w-11/12 mx-auto flex flex-col md:flex-row gap-5'>
-                <div>
+                <div className='flex justify-center'>
                     <img className='w-80' src={image} alt="" />
                 </div>
                 <div className='flex-1 flex flex-col justify-between'>
